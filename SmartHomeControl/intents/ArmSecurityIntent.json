@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "d5734bc2-21bd-4ab1-b137-c8f0d0860249",
+      "data": [
+        {
+          "text": "lock"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2672b880-8063-482d-9fda-000d9c446309",
+      "data": [
+        {
+          "text": "lock the door"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "809570bb-fc45-439a-be19-b6b8aa0e12c1",
+      "data": [
+        {
+          "text": "start security"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56503961-5c4a-4c02-82b6-ffb0454a2743",
+      "data": [
+        {
+          "text": "enable security"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1537f06a-e64b-43ad-9d3b-764a3d768108",
+      "data": [
+        {
+          "text": "turn on security"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9eeed6e7-91e5-428a-802e-af748d72b1d8",
+  "name": "ArmSecurityIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No problem! The security system is on now."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

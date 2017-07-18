@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "0424c069-14c3-4cb0-8dd4-9e50a53fcc9f",
+      "data": [
+        {
+          "text": "unlock"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c78406f-2ca1-4bd4-a4ee-9072bc6f3138",
+      "data": [
+        {
+          "text": "turn off security system"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "577c4808-5b35-4ee8-8348-b5b041eebd0a",
+      "data": [
+        {
+          "text": "unlock the door"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42ba9ef3-4d77-4cc7-9188-17b5deb3a234",
+      "data": [
+        {
+          "text": "turn off security"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "44d86d37-ecd0-4727-a809-b073757c9271",
+  "name": "DisarmSecurityIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No problem! I turned the security off."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,175 @@
+{
+  "userSays": [
+    {
+      "id": "76cc6434-9d37-4988-b6a1-176adca931ff",
+      "data": [
+        {
+          "text": "maybe "
+        },
+        {
+          "text": "25",
+          "alias": "temperature",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4c4ea29a-7dc1-4a5e-861f-3f6342a6f1ae",
+      "data": [
+        {
+          "text": "let\u0027s do "
+        },
+        {
+          "text": "25",
+          "alias": "temperature",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " degrees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5f706b0-a529-4235-ad34-c740d0fc2692",
+      "data": [
+        {
+          "text": "howabout "
+        },
+        {
+          "text": "25",
+          "alias": "temperature",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "degrees",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9da4732d-16aa-4138-8e7a-a4f895234cdc",
+      "data": [
+        {
+          "text": "i\u0027ll go with "
+        },
+        {
+          "text": "25",
+          "alias": "temperature",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " degrees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44356559-f170-45d2-b74a-ab217fe94906",
+      "data": [
+        {
+          "text": "change the temperature to "
+        },
+        {
+          "text": "25",
+          "alias": "temperature",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " degrees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "769009cd-80b1-415e-b716-9602ed0b3c01",
+      "data": [
+        {
+          "text": "cold"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7acc5542-9566-46fb-bfd7-ca1ea4f6dac1",
+      "data": [
+        {
+          "text": "i\u0027m cold"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e28397f-d76c-4961-878b-7fb19945a252",
+      "data": [
+        {
+          "text": "hot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52092df0-51e5-4d7d-83ce-35c7815ffd86",
+      "data": [
+        {
+          "text": "i\u0027m hot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b54d5a5c-ba93-491d-9a06-12d5a78bd8bf",
+  "name": "ChangeTemperatureIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "temperature",
+          "value": "$temperature",
+          "prompts": [
+            "What temperature would you prefer? Currently it\u0027s 28 degrees."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No problem! Set the temperature to $temperature degrees."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "f26f0c76-c8d2-472c-8f66-a413b9556b10",
+      "data": [
+        {
+          "text": "switch lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9196be8a-e731-401a-ba3e-b18b180efa31",
+      "data": [
+        {
+          "text": "control lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26a598a5-e12b-4e8f-8b2b-10807de0a7ae",
+      "data": [
+        {
+          "text": "lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6b73610-dea1-4622-9994-535fc12cebec",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "on",
+          "alias": "lightState",
+          "meta": "@lightState",
+          "userDefined": false
+        },
+        {
+          "text": " the lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bb3458d-f148-4f53-bf16-4fcff42e5d42",
+      "data": [
+        {
+          "text": "lights "
+        },
+        {
+          "text": "on",
+          "alias": "lightState",
+          "meta": "@lightState",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97160851-1f14-4b0b-bcf8-d82c2637ccc6",
+      "data": [
+        {
+          "text": "turn the lights "
+        },
+        {
+          "text": "off",
+          "alias": "lightState",
+          "meta": "@lightState",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6c2e63c7-cb27-4b25-9a03-189f545a56f4",
+  "name": "ControlLightsIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@lightState",
+          "name": "lightState",
+          "value": "$lightState",
+          "prompts": [
+            "Do you want the lights on or off?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, I turned the lights $lightState."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

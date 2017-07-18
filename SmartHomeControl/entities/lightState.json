@@ -1,0 +1,21 @@
+{
+  "id": "d8ff2640-0721-483c-8690-6de0dfd442a0",
+  "name": "lightState",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "on",
+      "synonyms": [
+        "on"
+      ]
+    },
+    {
+      "value": "off",
+      "synonyms": [
+        "off"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
