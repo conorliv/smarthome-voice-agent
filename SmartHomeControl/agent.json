@@ -1,6 +1,10 @@
 {
-  "description": "",
+  "description": "A voice/chat agent that you can use to control your smart home",
   "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
   "googleAssistant": {
     "googleAssistantCompatible": false,
     "project": "smarthomecontrol-9ad5d",

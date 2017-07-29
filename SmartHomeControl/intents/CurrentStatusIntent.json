@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "d5421e0c-f04d-498d-ad54-c41dd93a9b37",
+      "data": [
+        {
+          "text": "current status"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89296d1c-d6e0-4411-9c81-213f3e7618cf",
+      "data": [
+        {
+          "text": "status"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e6ec04-e89f-43be-8393-8a12de431420",
+      "data": [
+        {
+          "text": "what\u0027s the current status of my home?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "53c60967-2db8-4268-a18c-1c22851c5e3d",
+  "name": "CurrentStatusIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your lights are on, doors are unlocked, and the current temperature is 72."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

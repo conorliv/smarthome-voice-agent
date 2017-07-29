@@ -1,68 +1,78 @@
 {
   "userSays": [
     {
-      "id": "b33583f6-b879-4dd4-9707-2391c4ab2210",
+      "id": "38054915-df58-47f4-9269-db4f6091e593",
       "data": [
         {
-          "text": "unlock the damn doors"
+          "text": "help me"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "eeecdb01-2c17-4d84-b5a5-c16b4d430894",
+      "id": "a188f706-ae47-4c8c-bb5d-a2e639d5de2a",
       "data": [
         {
-          "text": "open the house"
+          "text": "what\u0027s this for"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "0424c069-14c3-4cb0-8dd4-9e50a53fcc9f",
+      "id": "bed28bba-0da1-48bf-b4da-2de6481c1c18",
       "data": [
         {
-          "text": "unlock"
+          "text": "what do i do"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "4c78406f-2ca1-4bd4-a4ee-9072bc6f3138",
+      "id": "0905b702-4d36-4054-ac3e-3826a4bdba3f",
       "data": [
         {
-          "text": "turn off security system"
+          "text": "show me what to do"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "577c4808-5b35-4ee8-8348-b5b041eebd0a",
+      "id": "2dcf61c9-2217-4607-a88e-dbfb9b217561",
       "data": [
         {
-          "text": "unlock the door"
+          "text": "what is this for"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "42ba9ef3-4d77-4cc7-9188-17b5deb3a234",
+      "id": "01f6b57c-c96b-4d4a-acae-3deebe2b0f3b",
       "data": [
         {
-          "text": "turn off security"
+          "text": "what can i do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd030997-6269-4e26-89f7-26606ce5d781",
+      "data": [
+        {
+          "text": "help"
         }
       ],
       "isTemplate": false,
       "count": 0
     }
   ],
-  "id": "44d86d37-ecd0-4727-a809-b073757c9271",
-  "name": "DisarmSecurityIntent",
+  "id": "60075dab-27c7-4e99-8ea0-645ed0338512",
+  "name": "HelpIntent",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -73,7 +83,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "No problem! I turned the security off."
+          "speech": "You can use this app to control your smart home. Try saying things like, \"Turn off the lights\", \"Lock the door\", \"Change the temperature\", or \"What\u0027s the current status of my smart home\""
         }
       ],
       "defaultResponsePlatforms": {}

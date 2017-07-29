@@ -1,6 +1,26 @@
 {
   "userSays": [
     {
+      "id": "e8588da6-006d-46ac-81fb-868b8ab6009a",
+      "data": [
+        {
+          "text": "dim lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d924e89c-011a-45c4-8098-1ea7104ba344",
+      "data": [
+        {
+          "text": "dim the lights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "f26f0c76-c8d2-472c-8f66-a413b9556b10",
       "data": [
         {

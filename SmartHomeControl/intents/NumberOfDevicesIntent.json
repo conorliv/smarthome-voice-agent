@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "5bd3abb5-9d1e-460e-9170-5e4b70d31408",
+      "data": [
+        {
+          "text": "how many devices do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "532b1e8b-2f59-4d58-8b54-6f3afa0474ba",
+  "name": "NumberOfDevicesIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You have three devices: security system, lights, and a temperature control system."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

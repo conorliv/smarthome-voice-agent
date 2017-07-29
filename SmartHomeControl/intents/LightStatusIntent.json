@@ -1,0 +1,45 @@
+{
+  "userSays": [
+    {
+      "id": "53bc451a-c733-40c1-9f22-dc535e06efd8",
+      "data": [
+        {
+          "text": "how long have the lights been "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b5a1eccc-1057-49db-aa91-665888590718",
+  "name": "LightStatusIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The lights have been on for 2 hours. If you\u0027d like to turn the off say \"turn off the lights.\""
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,6 +1,105 @@
 {
   "userSays": [
     {
+      "id": "1ca82566-8a61-443c-ad0a-b0923943395a",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "off",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the heat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8e168b3d-0aa6-4628-853c-75c0eff413a8",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the heat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be7422e5-4497-4b52-b476-770252db88a2",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "off",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " the ac"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0b9695a-e9ab-4055-92fe-4aefb27cc1a4",
+      "data": [
+        {
+          "text": "turn the temperature up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08f90133-7951-4112-b611-7f592e473184",
+      "data": [
+        {
+          "text": "turn the temperature down"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac37a7dc-5dbb-479e-a482-49181de587e3",
+      "data": [
+        {
+          "text": "turn the ac "
+        },
+        {
+          "text": "on",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e3a4ace-6948-4ef4-bce1-cc5763211eb9",
+      "data": [
+        {
+          "text": "change the temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "76cc6434-9d37-4988-b6a1-176adca931ff",
       "data": [
         {
@@ -153,7 +252,7 @@
           "name": "temperature",
           "value": "$temperature",
           "prompts": [
-            "What temperature would you prefer? Currently it\u0027s 28 degrees."
+            "What temperature would you prefer? Currently it\u0027s 72 degrees."
           ],
           "isList": false
         }
