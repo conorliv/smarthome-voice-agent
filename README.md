@@ -10,9 +10,10 @@ In order to use the agent, perform the following steps:
 2. Open [Dialogflow.com](https://www.dialogflow.com)
 3. Login with your Google account. (Dialogflow is owned by Google, so you can't create a separate Dialogflow account)
 3. Click create agent
-
-
+![](https://s3.us-east-2.amazonaws.com/smart-home-chatbot-assets/create-agent.png)
 4. Import the zip file
+![](https://s3.us-east-2.amazonaws.com/smart-home-chatbot-assets/import-agent.png)
+
 
 
 For more information, please take a look at the tutorial I created about how to create a "Hello World" voice app for Google Home.
